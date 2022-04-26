@@ -8,7 +8,7 @@ int main(){
     int a1,a2;
     a1=a;
     a2=b;
-    int r=0;
+    
     switch (c){
         case 1:
         printf("a = %d ,b = %d\n",a,b);
