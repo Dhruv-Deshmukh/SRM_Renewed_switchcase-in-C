@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    scanf("%d%d",&a,&b);
+    printf("Enter two number separated by spaces: ");
+    scanf("%d %d",&a,&b);
     int c;
     printf("1-Arithmetic operators\n2-Increment and Decrement operators\n3-Assignment operators\n4-Relational operators\n5-Logical operators\n6-Conditional operators\n\n\n");
     scanf("%d",&c);
