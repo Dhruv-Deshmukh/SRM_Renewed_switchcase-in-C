@@ -18,15 +18,18 @@ int main(){
         printf("\nDivision: %d",a/b);
         printf("\nRemainder division: %d",a%b);
         break;
+            
         case 2:
         printf("Increment operator:a = %d b = %d\n",++a,++b);
         printf("Decrement operator: a = %d b = %d",--a,--b);
         break;
+            
         case 3:
         printf("=:  a1= %d a2=%d\n",a1,a2);
         printf("+=: a1= %d a2= %d\n",a1+=a,a2+=b);
         printf("-=: a1= %d a2= %d\n",a1-=a,a2-=b);
         break;
+            
         case 4:
         
         printf("%d==%d is %d\n",a,b,a==b);
@@ -41,6 +44,7 @@ int main(){
         printf("a is equal to b or a less than b is %d \n", (a==b) || (a<b));
         printf("a not equal to b or a less than b is %d \n", (a!=b) || (a<b));
         break;
+            
         case 6:
         a>b?printf("a is greater than b"):printf("b is greater than a");
         break;
